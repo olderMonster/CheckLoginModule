@@ -1,8 +1,8 @@
 # CheckLoginModule
 
 [![Language Swift 5](https://img.shields.io/badge/Language-Swift%205-orange.svg?style=flat)](https://swift.org)
-[![License](https://img.shields.io/cocoapods/l/CheckLoginModule.svg?style=flat)](https://github.com/olderMonster/CheckLoginModule/blob/main/LICENSE)
-[![Platform](https://img.shields.io/cocoapods/p/CheckLoginModule.svg?style=flat)](http://www.apple.com)
+[![License NIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/olderMonster/CheckLoginModule/blob/main/LICENSE)
+[![Platform](https://img.shields.io/badge/Platforms-iOS-lightgray.svg?style=flat)](http://www.apple.com)
 
 ## CheckLoginModule
 `CheckLoginModule`主要是为了解决登录操作的后续逻辑。一般情况下我们在登录完成后通过代理或者`callback`的方式解决阻断操作连续性的问题，而通过这个库使用注解可以方便的在登录成功后自动执行注解对应的方法。
