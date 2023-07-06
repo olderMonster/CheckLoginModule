@@ -7,7 +7,17 @@
 //
 
 #import "CheckLoginImp.h"
+#import <CheckLoginModule/Annotation.h>
+#import "CheckLoginModule_Example-Swift.h"
+
+@interface CheckLoginImp()
+
+@end
 
 @implementation CheckLoginImp
+
+@CheckLogin(DetailViewController,buyAction,CheckLoginModule_Example)
+@CheckLogin(DetailViewController,jumpToMessagePage,CheckLoginModule_Example)
+
 
 @end

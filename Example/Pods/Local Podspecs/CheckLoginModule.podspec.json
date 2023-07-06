@@ -1,0 +1,27 @@
+{
+  "name": "CheckLoginModule",
+  "version": "0.1.0",
+  "summary": "A short description of CheckLoginModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/印聪/CheckLoginModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "印聪": "cong.yin@metawall.ai"
+  },
+  "source": {
+    "git": "https://github.com/印聪/CheckLoginModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CheckLoginModule/Classes/**/*",
+  "dependencies": {
+    "Aspects": [
+
+    ]
+  }
+}

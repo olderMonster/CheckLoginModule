@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CheckLoginModule/Annotation.h>
+
+
 
 NS_ASSUME_NONNULL_BEGIN
 

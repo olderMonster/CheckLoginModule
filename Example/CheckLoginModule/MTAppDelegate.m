@@ -7,12 +7,24 @@
 //
 
 #import "MTAppDelegate.h"
+#import "MTViewController.h"
+#import <CheckLoginModule/Annotation.h>
+#import "CheckLoginImp.h"
+#import "CheckLoginModule_Example-Swift.h"
 
 @implementation MTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    [Annotation sharedInstance].autoNext = YES;
+    [Annotation sharedInstance].delegate = [User shared];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[MTViewController alloc] init]];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
