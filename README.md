@@ -26,7 +26,7 @@ pod 'CheckLoginModule', :git => 'https://github.com/olderMonster/CheckLoginModul
 
 ```
 
-如果是在`Swift`类种使用，那么需要将对应的方法使用`dynamic`修饰
+如果是在`Swift`类中使用，那么需要将对应的方法使用`dynamic`修饰
 同时需要新建一个`OC`的类，然后在其中声明注解
 ```
 @interface CheckLoginImp()
