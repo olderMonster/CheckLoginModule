@@ -30,6 +30,16 @@ pod 'CheckLoginModule', :git => 'https://github.com/olderMonster/CheckLoginModul
 注意这里的`target`也需要使用`@objc`修饰
 
 ```
+@objc class DetailViewController: UIViewController {
+
+    //被注解的方法需要使用 dynamic 修饰
+    @objc dynamic func buyAction() {
+        User.createOrderAlert(viewController: self)
+    }
+    
+}
+
+
 @interface CheckLoginImp()
 
 @end
