@@ -58,7 +58,7 @@ pod 'CheckLoginModule', :git => 'https://github.com/olderMonster/CheckLoginModul
 
 ## Author
 
-印聪, cong.yin@metawall.ai
+印聪, 406416312@qq.com
 
 ## License
 
