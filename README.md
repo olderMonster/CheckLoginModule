@@ -3,7 +3,7 @@
 [![CI Status](https://img.shields.io/travis/印聪/CheckLoginModule.svg?style=flat)](https://travis-ci.org/印聪/CheckLoginModule)
 [![Version](https://img.shields.io/cocoapods/v/CheckLoginModule.svg?style=flat)](https://cocoapods.org/pods/CheckLoginModule)
 [![License](https://img.shields.io/cocoapods/l/CheckLoginModule.svg?style=flat)](https://cocoapods.org/pods/CheckLoginModule)
-[![Platform](https://img.shields.io/cocoapods/p/CheckLoginModule.svg?style=flat)](https://cocoapods.org/pods/CheckLoginModule)
+[![Platform](https://img.shields.io/cocoapods/p/CheckLoginModule.svg?style=flat)](iOS)
 
 ## CheckLoginModule
 `CheckLoginModule`主要是为了解决登录操作的后续逻辑。一般情况下我们在登录完成后通过代理或者`callback`的方式解决阻断操作连续性的问题，而通过这个库使用注解可以方便的在登录成功后自动执行注解对应的方法。
