@@ -1,7 +1,7 @@
 # CheckLoginModule
 
 [![Language Swift 5](https://img.shields.io/badge/Language-Swift%205-orange.svg?style=flat)](https://swift.org)
-[![License](https://img.shields.io/cocoapods/l/CheckLoginModule.svg?style=flat)](https://cocoapods.org/pods/CheckLoginModule/LICENSE)
+[![License](https://img.shields.io/cocoapods/l/CheckLoginModule.svg?style=flat)](https://github.com/olderMonster/CheckLoginModule/blob/main/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/CheckLoginModule.svg?style=flat)](http://www.apple.com)
 
 ## CheckLoginModule
