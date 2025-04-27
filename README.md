@@ -56,6 +56,29 @@ pod 'CheckLoginModule', :git => 'https://github.com/olderMonster/CheckLoginModul
 @end
 ```
 
+实现登录操作
+在定义的类中实现`AnnotationDelegate`协议
+```
+class User: AnnotationDelegate {
+
+    public func authorizeAccess() -> Bool {
+        return LCApplication.default.currentUser != nil
+    }
+    
+    public func requestAuthorizeAccess(_ authoried: @escaping () -> Void) {
+        if let rootViewController = UIViewController.keyWindow?.rootViewController as? UINavigationController {
+            let viewController = LoginViewController()
+            viewController.success = {
+                authoried()
+            }
+            rootViewController.pushViewController(viewController, animated: true)
+        }
+    }
+}
+```
+
+
+
 ## Author
 
 olderMonster, 406416312@qq.com
